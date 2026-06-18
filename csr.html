@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="WishOcean Group">
+  <title>社会责任 - WishOcean Group</title>
+  <style>
+    :root {
+      --bg: #0b0a07;
+      --text: #f5e7c8;
+      --gold: #c9a03d;
+      --gold-l: #ffd700;
+      --border: #b49450;
+      --font: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font);
+      line-height: 1.8;
+      min-height: 100vh;
+    }
+    nav {
+      background: rgba(18, 16, 12, 0.95);
+      padding: 14px 20px;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    nav a {
+      color: var(--gold);
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 14px;
+    }
+    nav a.active, nav a:hover {
+      color: var(--gold-l);
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    .banner {
+      text-align: center;
+      padding: 80px 20px;
+      background-size: cover;
+      background-position: center;
+      background-color: #1a160a;
+      color: var(--gold-l);
+    }
+    .banner h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    .banner p {
+      font-size: 18px;
+      color: var(--text);
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h1 {
+      color: var(--gold-l);
+      margin-bottom: 20px;
+      font-size: 28px;
+    }
+    h2 {
+      color: var(--gold);
+      margin-bottom: 12px;
+      font-size: 20px;
+    }
+    h3 {
+      color: var(--gold-l);
+      margin-bottom: 8px;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+    .service-card {
+      background: #12100c;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+    }
+    .service-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 12px;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      border-top: 1px solid var(--border);
+      margin-top: 40px;
+      color: var(--dim);
+      font-size: 13px;
+    }
+    footer a {
+      color: var(--gold);
+      margin: 0 8px;
+      text-decoration: none;
+    }
+    footer a:hover {
+      color: var(--gold-l);
+    }
+    @media(max-width: 600px) {
+      .banner h1 { font-size: 26px; }
+      .banner p { font-size: 15px; }
+      nav ul { gap: 10px; }
+    }
+  </style>
+</head>
+<body>
+  <nav><ul><li><a href="index.html">首页</a></li><li><a href="about/index.html">关于我们</a></li><li><a href="business/index.html">业务板块</a></li><li><a href="news.html">新闻中心</a></li><li><a href="investors.html">投资者关系</a></li><li><a href="csr.html" class="active">社会责任</a></li><li><a href="careers.html">加入我们</a></li><li><a href="contact.html">联系我们</a></li></ul></nav>
+  <div class="container">
+                <h1>社会责任</h1>
+                
+                <p>WishOcean坚持纯本地运行的技术路线，所有产品无需云端服务器支持，从源头减少数据中心能耗。WishOcean为全球教育工作者和非营利组织提供永久免费的基础工具使用权。全产品线均采用纯本地处理模式，不依赖任何云端数据中心，大幅降低了集中式服务器带来的能源消耗和碳排放。我们正在用去中心化的技术理念，为绿色未来贡献力量。</p></div>
+  <footer><p>© 2025 WishOcean Group. All Rights Reserved. 保留所有权利。</p><div class="social-links"></div></footer>
+</body>
+</html>
